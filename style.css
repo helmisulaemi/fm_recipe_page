@@ -106,7 +106,33 @@ body {
 @media (min-width: 600px) {
     body {
         padding: 5rem 0rem;
-        max-width: 600px;
+        max-width: 700px;
+    }
+
+    .recipe__img {
+        padding-left: var(--content-padding);
+        padding-right: var(--content-padding);
+        padding-top: var(--content-padding);
+    }
+    
+    .recipe__img img {
+        border-radius: 0.625rem;
+    }
+
+    .recipe__prepatation ul li {
+        max-width: 100% !important;
+    }
+
+    .recipe__ingredients ul li {
+        max-width: 100% !important;
+    }
+
+    .recipe__instructions ol li {
+        width: 100% !important;
+    }
+
+    .recipe__nutrition p {
+        width: 100% !important;
     }
 }
 
