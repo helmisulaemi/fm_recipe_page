@@ -109,6 +109,10 @@ body {
         max-width: 700px;
     }
 
+    .recipe {
+        border-radius: 1rem;
+    }
+
     .recipe__img {
         padding-left: var(--content-padding);
         padding-right: var(--content-padding);
